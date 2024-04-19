@@ -1,0 +1,4919 @@
+/****************************  Deafult Start  ************************************/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+@font-face {
+  font-family: "Candara";
+  src: url("../webfonts/Candara-BoldItalic.woff2") format("woff2"),
+    url("../webfonts/Candara-BoldItalic.woff") format("woff"),
+    url("../webfonts/Candara-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Candara";
+  src: url("../webfonts/Candara.woff2") format("woff2"),
+    url("../webfonts/Candara.woff") format("woff"),
+    url("../webfonts/Candara.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Candara";
+  src: url("../webfonts/Candara-Bold.woff2") format("woff2"),
+    url("../webfonts/Candara-Bold.woff") format("woff"),
+    url("../webfonts/Candara-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Candara";
+  src: url("../webfonts/Candara-Italic.woff2") format("woff2"),
+    url("../webfonts/Candara-Italic.woff") format("woff"),
+    url("../webfonts/Candara-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kiona";
+  src: url("../webfonts/Kiona-Regular.woff2") format("woff2"),
+    url("../webfonts/Kiona-Regular.woff") format("woff"),
+    url("../webfonts/Kiona-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kiona";
+  src: url("../webfonts/Kiona-Itallic.woff2") format("woff2"),
+    url("../webfonts/Kiona-Itallic.woff") format("woff"),
+    url("../webfonts/Kiona-Itallic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+.rk-site {
+  font-family: "Candara";
+}
+
+.rk-menu-show {
+  overflow: hidden;
+}
+
+.rk-section-title {
+  font-family: "Libre Bodoni", serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #101223;
+}
+
+.form-select,
+.form-control {
+  border: 1px solid #d2d4da;
+  border-radius: 10px;
+  padding: 14px 20px 14px 45px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9496a1;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #05ac93;
+  border-color: #05ac93;
+}
+
+.btn-success:focus,
+.btn-success:active,
+.btn-success:hover {
+  color: #fff;
+  background-color: #0a9782;
+  border-color: #0a9782;
+}
+
+a {
+  -webkit-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.form-select:focus,
+.form-check-input:focus,
+.btn:active,
+.btn:focus,
+.form-control:active,
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-check-label {
+  color: #404252;
+}
+
+.form-check-input {
+  border: 3px solid #3f4353;
+}
+
+.form-check-input:checked {
+  background-color: #05ac93;
+  border-color: #05ac93;
+}
+
+.scrollbar-track {
+  background: rgba(222, 222, 222, 0.4);
+}
+
+.scrollbar-thumb {
+  background: #d6d7da;
+}
+
+.slick-arrow {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  border: none;
+  font-size: 0;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 10;
+  background-image: url(../images/left-arrow.png);
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slick-next.slick-arrow {
+  left: unset;
+  right: 0;
+  background-image: url(../images/right-arrow.png);
+}
+
+.btn-secondary {
+  background-color: #05ac93;
+  border-color: #05ac93;
+}
+
+.btn-custom {
+  -webkit-box-shadow: 0px 4px 20px rgba(5, 172, 147, 0.2);
+  box-shadow: 0px 4px 20px rgba(5, 172, 147, 0.2);
+  border-radius: 12px;
+  font-family: "Candara";
+  padding: 13px 36px;
+  font-weight: 700;
+}
+
+.modal-backdrop.show {
+  opacity: 0.4;
+}
+
+.modal-content {
+  border-radius: 32px;
+}
+
+.modal-body {
+  padding: 32px 24px;
+}
+
+.btn-outline-success {
+  color: #05ac93;
+  border-color: #05ac93;
+}
+
+.btn-outline-success:hover {
+  background-color: #05ac93;
+  border-color: #05ac93;
+}
+
+.rk-edit-profile-content {
+  margin-bottom: 40px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.progress {
+  background: #e6f7f4;
+  border-radius: 4px;
+  height: 8px;
+}
+
+.progress-bar {
+  background-color: #05ac93;
+  border-radius: 4px;
+}
+
+.btn-outline-danger {
+  color: #eb5757;
+  border-color: #eb5757;
+}
+
+.rk-more-action-dropdown .dropdown-toggle:before {
+  display: none;
+}
+
+.text-danger {
+  color: #eb5757 !important;
+}
+
+.rk-menu-show .rk-dashboard-content-area .scroll-content {
+  -webkit-transform: unset !important;
+  -ms-transform: unset !important;
+  transform: unset !important;
+}
+
+/****************************  Deafult End  ************************************/
+
+/****************************  Header Start  ************************************/
+.rk-header {
+  padding: 12px 40px;
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.rk-header .form-select {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 4px 8px rgb(0 0 0 / 4%);
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 4%);
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  border-radius: 4px;
+  border: none;
+  background: -o-linear-gradient(
+      bottom,
+      rgba(78, 93, 120, 0.6),
+      rgba(78, 93, 120, 0.6)
+    ),
+    -o-linear-gradient(bottom, #ffffff, #ffffff);
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(78, 93, 120, 0.6)),
+      to(rgba(78, 93, 120, 0.6))
+    ),
+    -webkit-gradient(linear, left bottom, left top, from(#ffffff), to(#ffffff));
+  background: linear-gradient(
+      0deg,
+      rgba(78, 93, 120, 0.6),
+      rgba(78, 93, 120, 0.6)
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 7px 45px 7px 25px;
+  position: relative;
+}
+
+.rk-header .form-select:after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/down-arrow.png);
+}
+
+.rk-lang-form-select {
+  position: relative;
+}
+
+.rk-lang-form-select > img {
+  position: absolute;
+  right: 20px;
+  top: 11px;
+}
+
+/****************************  Header End  ************************************/
+
+/****************************  Login Page Start  ************************************/
+.rk-login-reg-section {
+  background-color: #fafafa;
+  padding: 25px 0;
+  min-height: calc(100vh - 90px);
+}
+
+.rk-login-reg-content {
+  background-color: #f5f6f8;
+  border-radius: 16px;
+}
+
+.rk-login-reg-details {
+  background-color: #212121;
+  color: #fff;
+  text-align: center;
+  padding: 100px 55px 265px 55px;
+  border-radius: 16px;
+  background-image: url(../images/login-back.png);
+  background-position: bottom;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.rk-login-reg-subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 17px;
+}
+
+.rk-login-reg-description {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 135px;
+}
+
+.rk-login-reg-form-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 40px 0 16px;
+}
+
+.rk-login-img {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.rk-login-reg-form {
+  background-image: url(../images/log-regi-union.png);
+  background-position: top center;
+  background-size: cover;
+  padding: 30px 40px;
+  width: 100%;
+  border-radius: 20px;
+  -webkit-filter: drop-shadow(3px -5px 35px rgb(205 205 212 / 10%));
+  filter: drop-shadow(3px -5px 35px rgb(205 205 212 / 10%));
+}
+
+.rk-login-reg-form .rk-section-title {
+  margin-bottom: 32px;
+}
+
+.rk-login-reg-form .btn {
+  -webkit-box-shadow: 0px 4px 20px rgb(5 172 147 / 20%);
+  box-shadow: 0px 4px 20px rgb(5 172 147 / 20%);
+  border-radius: 12px;
+  padding: 13px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.rk-login-reg-form-notes {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404252;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.rk-login-reg-form-notes-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #05ac93;
+  text-decoration: none;
+}
+
+.rk-login-reg-form-notes-link:hover {
+  color: #05ac93;
+  opacity: 0.8;
+}
+
+.rk-form-input {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.rk-form-input-icon {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  line-height: 1;
+}
+
+.rk-form-passrowd-icon {
+  left: unset;
+  right: 20px;
+}
+
+.rk-forgot-pass-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #404252;
+  text-decoration: none;
+}
+
+.rk-forgot-pass-link {
+  color: #404252;
+  opacity: 0.8;
+}
+
+.rk-remember-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+/****************************  Login Page End  ************************************/
+
+/****************************  Dashboard Page Start  ************************************/
+.rk-dashboard-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rk-dashboard-content-area {
+  width: calc(100% - 285px);
+  margin-left: auto;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.rk-dashboard-sidebar .navbar {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  height: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.rk-site-logo {
+  margin: 0 auto 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #ececec;
+  width: 100%;
+  text-align: center;
+}
+
+.rk-dashboard-sidebar {
+  padding: 32px 14px 32px 24px;
+  width: 285px;
+  height: 100vh;
+  background: #f7f7f7;
+  border-radius: 0px 64px 0px 0px;
+}
+
+.navbar-nav {
+  height: calc(100% - 210px);
+  overflow-y: auto;
+  width: 100%;
+  padding-right: 10px;
+}
+
+.navbar-nav .scrollbar-track {
+  opacity: 1;
+}
+
+.rk-dashboard-sidebar .navbar-brand {
+  padding: 0;
+  margin: auto;
+  display: inline-block;
+}
+
+.rk-dashboard-sidebar .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #404252;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px;
+  background-color: transparent;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.nav-link-icon {
+  margin-right: 12px;
+}
+
+.rk-dashboard-sidebar .nav-link:hover,
+.rk-dashboard-sidebar .nav-link.active {
+  background-color: #05ac93;
+  -webkit-box-shadow: 0px 4px 20px rgba(5, 172, 147, 0.2);
+  box-shadow: 0px 4px 20px rgba(5, 172, 147, 0.2);
+  border-radius: 12px;
+  color: #fff;
+}
+
+.rk-dashboard-sidebar .nav-link:hover .nav-link-icon svg path,
+.rk-dashboard-sidebar .nav-link.active .nav-link-icon svg path {
+  fill: #ffffff;
+}
+
+.nav-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.rk-logged-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-top: auto;
+}
+
+.rk-logged-user-img {
+  display: block;
+  margin-right: 12px;
+}
+
+.rk-logged-user-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(8, 171, 147, 0.2));
+  filter: drop-shadow(0px 4px 10px rgba(8, 171, 147, 0.2));
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.rk-logged-user-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101223;
+  margin-bottom: 4px;
+}
+
+.rk-logged-user-designation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101223;
+  margin-bottom: 0;
+}
+
+.rk-site-header-logo {
+  display: none;
+}
+
+.rk-dashboard-user-name {
+  font-family: "Libre Bodoni", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.rk-dashboard-user-name span {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.rk-dashboard-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #f3f4f8;
+  margin-bottom: 24px;
+}
+
+.rk-dashboard-header-search {
+  margin-left: auto;
+  position: relative;
+  width: 345px;
+  max-width: 50%;
+}
+
+.rk-dashboard-header-search img {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.rk-dashboard-header-search .form-control {
+  font-family: "Kiona";
+  background-color: #f8f8fa;
+  border-radius: 16px;
+  border: none;
+  padding: 17px 16px 17px 56px;
+}
+
+.rk-dashboard-header-search .form-control::-webkit-input-placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #777986;
+}
+
+.rk-dashboard-header-search .form-control::-moz-placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #777986;
+}
+
+.rk-dashboard-header-search .form-control:-ms-input-placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #777986;
+}
+
+.rk-dashboard-header-search .form-control::-ms-input-placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #777986;
+}
+
+.rk-dashboard-header-search .form-control::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #777986;
+}
+
+.rk-dashboard-notification-icon {
+  padding: 8px;
+  margin-left: 16px;
+}
+
+.rk-menu-icon {
+  display: none;
+}
+
+.rk-dashboard-count-card-content {
+  margin-bottom: 32px;
+}
+
+.rk-dashboard-count-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background: #eef5d7;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.rk-dashboard-counter {
+  font-family: "Libre Bodoni", serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70px;
+  color: #333333;
+  margin-bottom: 0;
+  margin-right: 12px;
+}
+
+.rk-dashboard-count-label {
+  font-family: "Kiona";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1a1c2c;
+  margin-bottom: 0;
+}
+
+.rk-dashboard-count-employee {
+  background-color: #e2f8ff;
+}
+
+.rk-dashboard-count-events-card {
+  background-color: #ffe6e7;
+}
+
+.rk-event-slider-title {
+  font-family: "Libre Bodoni", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.rk-event-slider-title span {
+  font-family: "Kiona";
+  color: #5b5d6b;
+  font-weight: bold;
+}
+
+.rk-event-slider-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1a1c2c;
+  text-decoration: none;
+}
+
+.rk-event-slider-link:hover {
+  color: #1a1c2c;
+  opacity: 0.8;
+}
+
+.rk-event-slider-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.rk-event-card-img {
+  position: relative;
+}
+
+.rk-event-card-img > img {
+  border-radius: 24px 24px 0 0;
+  width: 100%;
+  height: 160px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.rk-event-card-rating {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 4px 6px;
+}
+
+.rk-event-card-rating img {
+  margin-right: 8px;
+}
+
+.rk-event-card {
+  background-color: #fff;
+  border-radius: 24px;
+  border: 1px solid #f3f4f8;
+}
+
+.rk-event-sponsor-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101223;
+  margin-bottom: 0;
+}
+
+.rk-event-sponsor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rk-event-sponsor-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-event-sponsor-img {
+  margin-right: 12px;
+}
+
+.rk-event-sponsor-img img {
+  -webkit-box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.rk-event-card-body {
+  padding: 12px;
+}
+
+.rk-event-sponsor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #f3f4f8;
+}
+
+.rk-event-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rk-event-time-date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #5b5d6b;
+  margin-bottom: 0;
+}
+
+.rk-event-participate {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: #404252;
+  margin-bottom: 0;
+}
+
+.rk-event-participate-icon {
+  margin-right: 4px;
+}
+
+.rk-event-card-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101223;
+  margin-bottom: 8px;
+}
+
+.rk-event-card-location {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #404252;
+  margin-bottom: 0;
+}
+
+.rk-event-card-location-icon {
+  margin-right: 4px;
+}
+
+.rk-event-slide {
+  padding: 0 12px;
+}
+
+.rk-event-slider-content {
+  margin-bottom: 32px;
+}
+
+.rk-recent-events-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background: #ffffff;
+  border: 1px solid #f3f4f8;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+
+.rk-recent-events-item:last-child {
+  margin-bottom: 0;
+}
+
+.rk-recent-events-info {
+  margin-left: auto;
+}
+
+.rk-recent-events-img img {
+  width: 140px;
+  height: 120px;
+  border-radius: 12px 0px 0px 12px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.rk-recent-events-details {
+  padding: 16px 16px 16px 24px;
+}
+
+.rk-recent-events-info {
+  margin-left: auto;
+  padding: 16px;
+}
+
+.rk-recent-events-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #101223;
+  margin-bottom: 12px;
+}
+
+.rk-recent-events-location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: #404252;
+  margin-bottom: 12px;
+}
+
+.rk-recent-events-item .rk-event-sponsor-img,
+.rk-recent-events-location-icon {
+  margin-right: 4px;
+}
+
+.rk-recent-events-item .rk-event-sponsor-details {
+  line-height: 1;
+}
+
+.rk-recent-events-item .rk-event-sponsor-img img {
+  border: 1px solid #d2d4da;
+  width: 16px;
+  height: 16px;
+}
+
+.rk-recent-events-item .rk-event-sponsor-name {
+  font-weight: 400;
+}
+
+.rk-recent-events-item .rk-event-time-date {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 16px;
+}
+
+.rk-recent-events-item p.rk-event-participate {
+  font-size: 14px;
+  line-height: 17px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.rk-event-book-content {
+  background: #d5e79b;
+  border: 1px solid #bcd95f;
+  border-radius: 24px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 16px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-event-book-title {
+  font-family: "Libre Bodoni", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #1a1c2c;
+  margin-bottom: 16px;
+}
+
+.rk-event-book-img {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.rk-dashboard-section .btn {
+  font-family: "Kiona";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding: 11px 28px;
+  border-radius: 12px;
+}
+
+/****************************  Dashboard Page End  ************************************/
+
+/****************************  My Event Page Start  ************************************/
+.rk-event-filter__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.rk-event-filter-input {
+  width: calc(25% - 12px);
+}
+
+.rk-event-filter-input .form-control,
+.rk-event-filter-input .form-select {
+  line-height: 20px;
+  color: #9496a1;
+  padding: 9px 30px 9px 10px;
+}
+
+.rk-event-filter-value-list {
+  padding: 0;
+  margin-bottom: 32px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.rk-event-filter-value-item {
+  background: #ffffff;
+  border: 1px solid #d2d4da;
+  border-radius: 8px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9496a1;
+  margin-right: 16px;
+}
+
+.rk-event-filter-value-item:last-child {
+  margin-right: 0;
+}
+
+.rk-event-filter-value {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101223;
+  margin-right: 16px;
+  margin-left: 4px;
+}
+
+.rk-event-filter-value-remove {
+  line-height: 1;
+  cursor: pointer;
+}
+
+/****************************  My Event Page End  ************************************/
+/****************************  No Event / Request Event Page End  ************************************/
+.rk-event-request-hrader {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.rk-no-event-content {
+  min-height: calc(100vh - 153px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.rk-no-event-img {
+  margin-bottom: 48px;
+}
+
+.rk-no-event-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #5b5d6b;
+  margin-bottom: 8px;
+}
+
+.rk-no-event-description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: #5b5d6b;
+  margin-bottom: 32px;
+  width: 430px;
+  max-width: 100%;
+}
+
+.rk-side-modal .modal-dialog {
+  margin: 0 0 0 auto;
+}
+
+.rk-side-modal .modal-dialog .modal-content {
+  height: 100vh;
+  border: none;
+  border-radius: 32px 0px 0px 32px;
+}
+
+.rk-side-modal.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  -webkit-transform: translate(50px, 0);
+  -ms-transform: translate(50px, 0);
+  transform: translate(50px, 0);
+}
+
+.rk-side-modal.modal.show .modal-dialog {
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.rk-side-modal .modal-dialog-scrollable {
+  height: calc(100%);
+}
+
+.rk-side-modal .modal-body {
+  padding: 0 24px;
+}
+
+.rk-side-modal .modal-footer {
+  border-top: none;
+  padding: 32px 24px 32px;
+}
+
+.modal-header {
+  padding: 32px 24px;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #101223;
+}
+
+.rk-modal-title-icon {
+  margin-right: 12px;
+}
+
+.rk-modal-form-content .form-control {
+  border: 1px solid #d2d4da;
+  border-radius: 8px;
+}
+
+.rk-modal-form-input .form-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101223;
+  margin-bottom: 8px;
+}
+
+.rk-modal-form-content .form-select,
+.rk-modal-form-content .form-control {
+  border: 1px solid #d2d4da;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: #101223;
+}
+
+.rk-modal-form-content {
+  margin-bottom: 20px;
+}
+
+.rk-modal-form-input:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+/****************************  No Event / Request Event Page End  ************************************/
+
+/****************************  Book/Requeste Event Page Start  ************************************/
+
+.rk-requested-event-img img {
+  width: 180px;
+  height: 140px;
+  min-height: 100%;
+  border-radius: 8px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.rk-requested-event-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.rk-requested-event-details {
+  width: calc(100% - 180px);
+  padding: 0 16px;
+}
+
+.rk-requested-event-details__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.rk-requested-event-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #05ac93;
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.rk-requested-event-title:before {
+  content: "";
+  width: 32px;
+  height: 3px;
+  background-color: #05ac93;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 5px);
+}
+
+.rk-requested-event-category {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #abcf37;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-requested-event-category-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9496a1;
+  margin-right: 4px;
+  margin-bottom: 0;
+}
+
+.rk-requested-event-location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: #404252;
+  margin-bottom: 0;
+}
+
+.rk-requested-event-location-icon {
+  margin-right: 4px;
+}
+
+.rk-requested-event-date-time {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #5b5d6b;
+  font-family: "Kiona";
+  margin-bottom: 16px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.rk-requested-event-date-icon {
+  margin-right: 4px;
+}
+
+.rk-requested-event-date-devider {
+  margin: 0 4px;
+}
+
+.rk-requested-event-member {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: #404252;
+  margin-bottom: 16px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.rk-requested-event-member-icon {
+  margin-right: 4px;
+}
+
+.rk-requested-event-participant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.rk-requested-event-participant-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9496a1;
+  margin-right: 6px;
+}
+
+.rk-requested-event-participant-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-requested-event-participant-item .img-fluid {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 1px solid #ffffff;
+}
+
+.rk-requested-event-participant-item:not(:first-child) {
+  margin-left: -8px;
+}
+
+.rk-requested-event-participant-item:last-child {
+  margin-left: -24px;
+}
+
+.rk-requested-event-participant-more {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-image: -o-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 0.5)),
+    to(rgba(0, 0, 0, 0.5))
+  );
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+}
+
+.rk-requested-event-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9496a1;
+  margin-bottom: 0;
+}
+
+.rk-form-input-number {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 12px 16px;
+  height: 100%;
+  border-left: 1px solid #9496a1;
+}
+
+.rk-form-input-arrow {
+  display: block;
+  width: 12px;
+  height: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rk-form-input-arrow:first-child {
+  margin-bottom: 7px;
+}
+
+/****************************  Book/Requeste Event Page End  ************************************/
+
+/****************************  Employees Managment Page Start  ************************************/
+.rk-dashboard-filter-icon {
+  background: #f8f8fa;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+
+.rk-dashboard-header-btn .btn {
+  padding: 14px 16px;
+  font-family: "Candara";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 4px 20px rgba(5, 172, 147, 0.2);
+  box-shadow: 0px 4px 20px rgba(5, 172, 147, 0.2);
+  margin-left: 16px;
+}
+
+.rk-employee-managment-content .col {
+  margin-bottom: 32px;
+}
+
+.rk-employee-managment-item {
+  border: 1px solid #f3f4f8;
+  border-radius: 12px;
+  padding: 16px;
+  height: 100%;
+}
+
+.rk-employee-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rk-employee-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.rk-employee-img {
+  margin-right: 12px;
+}
+
+.rk-employee-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101223;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.rk-employee-name::before {
+  content: "";
+  position: absolute;
+  top: calc(100% - 3px);
+  width: 32px;
+  height: 3px;
+  background-color: #101223;
+}
+
+.rk-employee-img img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  border: 1px solid #05ac93;
+}
+
+.rk-employee-id {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101223;
+  margin-bottom: 12px;
+  font-family: "Kiona";
+}
+
+.rk-employee-id-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9496a1;
+  margin-right: 4px;
+}
+
+.rk-employee-id-number {
+  border-bottom: 1px solid;
+}
+
+.rk-employee-email {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-transform: capitalize;
+  color: #404252;
+  margin-bottom: 12px;
+}
+
+.rk-employee-email-icon {
+  margin-right: 8px;
+}
+
+.rk-employee-date {
+  margin-bottom: 0;
+}
+
+.rk-employee-date-icon {
+  margin-right: 4px;
+}
+
+.rk-employee-date {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #5b5d6b;
+  font-family: "Kiona";
+}
+
+.rk-employee-date-devider {
+  margin: 0 4px;
+}
+
+.rk-employee-designation {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #ffb743;
+  margin-bottom: 12px;
+  text-align: right;
+  display: block;
+}
+
+.rk-employee-attend {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9496a1;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-employee-attend-icon {
+  margin-right: 8px;
+}
+
+.rk-employee-attend-label {
+  margin-right: 4px;
+}
+
+.rk-employee-attend-count {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101223;
+  font-family: "Kiona";
+}
+
+.rk-modal-form-content .rk-form-input-icon {
+  left: unset;
+  right: 16px;
+  top: 14px;
+}
+
+.rk-filter-form-select {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.select2-container--default .select2-results > .select2-results__options {
+  max-height: 220px;
+}
+
+.select2-container--open .select2-dropdown {
+  min-width: 205px !important;
+  left: unset;
+  right: 0;
+}
+
+.rk-dashboard-filter-icon .select2-container {
+  height: calc(100% + 20px);
+  width: 0 !important;
+}
+
+.rk-dashboard-filter-icon
+  .select2-container--default
+  .select2-selection--single {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  top: 0;
+  left: -40px;
+  opacity: 0;
+}
+
+.select2-container--open .select2-dropdown--below {
+  background: #ffffff;
+  border: 1px solid #e2e5ea !important;
+  -webkit-box-shadow: 0px 9px 25px rgba(0, 0, 0, 0.04),
+    0px 1.8px 4.0625px rgba(0, 0, 0, 0.02%);
+  box-shadow: 0px 9px 25px rgba(0, 0, 0, 0.04),
+    0px 1.8px 4.0625px rgba(0, 0, 0, 0.02%);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 15px;
+}
+
+.select2-results__option:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.select2-container--default
+  .select2-results__option--highlighted.select2-results__option--selectable,
+.select2-container--default .select2-results__option--selected {
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #05ac93;
+  background-color: #f8f8fa;
+}
+
+/****************************  Employees Managment Page End  ************************************/
+
+/****************************  Billing & Invoicing Page Start  ************************************/
+.rk-billing-content-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 16px;
+  background: #f8f8fa;
+  border-radius: 12px 12px 0px 0px;
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  border-color: #f3f4f8;
+}
+
+.rk-billing-card-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101223;
+  margin-bottom: 0;
+}
+
+.rk-billing-card-amount-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #b3b5bd;
+  margin-bottom: 0;
+}
+
+.rk-billing-card-amount {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #05ac93;
+  margin-left: 4px;
+}
+
+.rk-billing-content-card-body {
+  border: 1px solid #f3f4f8;
+  border-radius: 0px 0px 12px 12px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rk-billing-tax {
+  font-family: "Kiona";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101223;
+  margin-bottom: 12px;
+}
+
+.rk-billing-tax-label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9496a1;
+}
+
+.rk-billing-amount {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #05ac93;
+  margin-bottom: 12px;
+}
+
+.rk-billing-amount-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #b3b5bd;
+  margin-right: 4px;
+}
+
+.rk-billing-details .btn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #05ac93;
+  border: 1px solid #05ac93;
+  -webkit-filter: drop-shadow(0px 4px 20px rgba(5, 172, 147, 0.2));
+  filter: drop-shadow(0px 4px 20px rgba(5, 172, 147, 0.2));
+  border-radius: 12px;
+  padding: 7px 38px;
+  font-family: "Candara";
+}
+
+.rk-billing-details .btn:hover {
+  background-color: #05ac93;
+  color: #fff;
+}
+
+.rk-billing-status {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #abcf37;
+  padding: 6px 24px;
+  background-color: #f7faeb;
+  border-radius: 100px;
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-billing-status::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  margin-right: 6px;
+  background-color: #abcf37;
+}
+
+.rk-billing-content .col {
+  margin-bottom: 34px;
+}
+
+/****************************  Billing & Invoicing Page End  ************************************/
+/****************************  Profile Page Start  ************************************/
+.rk-profile-banner img {
+  width: 100%;
+  height: 260px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  border-radius: 32px 32px 0px 0px;
+}
+
+.rk-profile-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: -90px;
+  position: relative;
+  z-index: 1;
+  padding-left: 80px;
+  margin-bottom: 100px;
+}
+
+.rk-profile-details_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.rk-profile-img img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 1px solid #05ac93;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(8, 171, 147, 0.2));
+  filter: drop-shadow(0px 4px 10px rgba(8, 171, 147, 0.2));
+  margin-right: 20px;
+}
+
+.rk-profile-user-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #101223;
+  margin-bottom: 8px;
+  font-family: "Libre Bodoni";
+}
+
+.rk-profile-user-designation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101223;
+  margin-bottom: 0;
+}
+
+.rk-profile-name {
+  margin-bottom: 10px;
+}
+
+.rk-profile-details_inner .btn {
+  font-family: "Candara";
+  padding: 12px 18px;
+  margin-bottom: 10px;
+}
+
+.rk-profile-info {
+  padding: 0 80px 50px 80px;
+}
+
+.rk-profile-info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.rk-profile-info-item:last-child {
+  margin-bottom: 0;
+}
+
+.rk-profile-info-icon {
+  margin-right: 24px;
+}
+
+.rk-profile-info-label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 4px;
+}
+
+.rk-profile-info-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #404252;
+  margin-bottom: 0;
+}
+
+.rk-profile-info-id {
+  font-weight: 600;
+  font-family: "Kiona";
+  border-bottom: 1px solid;
+}
+
+.rk-profile-info-change-pass-link {
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rk-profile-info-change-pass-icon {
+  margin-left: 70px;
+}
+
+.rk-edit-profile-img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  position: relative;
+}
+
+.rk-edit-profile-img > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(8, 171, 147, 0.2));
+  filter: drop-shadow(0px 4px 10px rgba(8, 171, 147, 0.2));
+}
+
+.rk-edit-profile-choose {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.rk-edit-profile-choose-icon {
+  line-height: 1;
+}
+
+.rk-edit-profile-choose-file {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.rk-update-password-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #262626;
+  font-family: "Libre Bodoni";
+  margin-bottom: 24px;
+}
+
+.rk-edit-profile-modal .form-control {
+  color: #282a3a;
+}
+
+.rk-edit-profile-head {
+  margin-bottom: 40px;
+}
+
+.rk-modal-footer-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rk-modal-footer-btn .btn {
+  padding: 11px 40px;
+  border-radius: 12px;
+  width: calc(50% - 16px);
+}
+
+/****************************  Profile Page End  ************************************/
+
+/****************************  Chef Dashboard Page Start  ************************************/
+.rk-chef-earning-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #23262f;
+  font-family: "Libre Bodoni";
+  margin-bottom: 0;
+}
+
+.rk-chef-earning-content {
+  padding: 25px 28px;
+  background: #ffffff;
+  -webkit-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.06);
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.rk-chef-earning-heading {
+  margin-bottom: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rk-chef-rating-list {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-chef-rating-number {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #101223;
+  margin-left: 5px;
+}
+
+.rk-average-rating-label {
+  color: #282a3a;
+  min-width: 50px;
+  margin-right: 25px;
+}
+
+.rk-average-rating-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.rk-average-rating-item:last-child {
+  margin-bottom: 0;
+}
+
+.rk-average-rating-progress {
+  width: calc(100% - 75px);
+  position: relative;
+}
+
+.rk-average-rating-progress-label {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  color: #344054;
+  padding: 5px 8px;
+  display: block;
+  -webkit-box-shadow: 0px 8.88px 11.84px -2.96px rgb(16 24 40 / 8%),
+    0px 2.96px 4.44px -1.48px rgb(16 24 40 / 3%);
+  box-shadow: 0px 8.88px 11.84px -2.96px rgb(16 24 40 / 8%),
+    0px 2.96px 4.44px -1.48px rgb(16 24 40 / 3%);
+  border-radius: 5.92px;
+  position: absolute;
+  bottom: calc(100% + 12px);
+}
+
+span.rk-average-rating-progress-label:after {
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.rk-chef-rating-content .rk-chef-earning-heading {
+  margin-bottom: 50px;
+}
+
+/****************************  Chef Dashboard Page End  ************************************/
+
+/****************************  Chef Manage Event Invites Page End  ************************************/
+.rk-manage-invites-card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101223;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.rk-manage-invites-card {
+  border: 1px solid #f3f4f8;
+  border-radius: 16px;
+  padding: 16px;
+  height: 100%;
+}
+
+.rk-manage-invites-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #f3f4f8;
+}
+
+.rk-manage-invites-card-title-icon {
+  margin-left: 8px;
+  line-height: 1;
+}
+
+.rk-manage-invites-card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101223;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  border-radius: 4px;
+  position: relative;
+}
+
+.rk-manage-invites-card-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  height: 3px;
+  width: 32px;
+  border-radius: 4px;
+  background-color: #101223;
+}
+
+.rk-manage-invites-card .rk-requested-event-date-time {
+  margin-bottom: 8px;
+}
+
+.rk-manage-invites-card .rk-requested-event-member {
+  margin-bottom: 0;
+}
+
+.rk-manage-invites-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5b5d6b;
+  margin-bottom: 24px;
+}
+
+.rk-manage-invites-owner-message-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101223;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-manage-invites-owner-message-icon {
+  margin-right: 8px;
+}
+
+.rk-manage-invites-owner-details {
+  width: calc(100% - 32px);
+}
+
+.rk-manage-invites-owner-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101223;
+  margin-bottom: 2px;
+}
+
+.rk-manage-invites-owner-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5b5d6b;
+  margin-bottom: 0;
+}
+
+.rk-manage-invites-owner-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-manage-invites-owner-img {
+  margin-right: 8px;
+}
+
+.rk-manage-invites-owner-img img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.rk-manage-invites-owner-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background: rgba(230, 247, 244, 0.2);
+  border: 1px solid rgba(205, 238, 233, 0.3);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+.rk-manage-invites-card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rk-manage-invites-budget {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5b5d6b;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rk-manage-invites-budget:last-child {
+  margin-bottom: 0;
+}
+
+.rk-manage-invites-budget span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #404252;
+}
+
+.rk-manage-invites-card-footer__inner {
+  width: 50%;
+}
+
+.rk-manage-invites-card-footer__inner:last-child {
+  text-align: right;
+  padding-left: 30px;
+}
+
+.rk-manage-invites-card-footer__inner .btn {
+  font-family: "Candara";
+  padding: 9px 24px;
+  border-radius: 8px;
+}
+
+.rk-manage-invites-card-footer__inner .btn:not(:last-child) {
+  margin-right: 16px;
+}
+
+.rk-manage-invites-budget .rk-compensation-price {
+  color: #05ac93;
+}
+
+.rk-manage-event-invites-content .col {
+  margin-bottom: 32px;
+}
+
+.rk-cancel-invites-content {
+  margin-bottom: 32px;
+}
+
+.rk-cancel-invites-content .form-check-input {
+  width: 18px;
+  height: 18px;
+  border: 3px solid #b3b5bd;
+  border-radius: 2px;
+}
+
+.rk-cancel-invites-content .form-check-input:checked[type="checkbox"] {
+  background-color: #fff;
+  border-color: #05ac93;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%2305ac93' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+.rk-cancel-invites-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.rk-cancel-invites-btn .btn-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #eb5757;
+  text-decoration: none;
+  margin-right: 32px;
+}
+
+.rk-cancel-invites-btn .btn {
+  line-height: 20px;
+  padding: 9px 31px;
+}
+
+.rk-cancel-invites-other-reason {
+  margin-top: 16px;
+  display: none;
+}
+
+.rk-cancel-invites-other-reason.show {
+  display: block;
+}
+
+.rk-cancel-invites-content .form-check:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.rk-cancel-invites-other-reason .form-control {
+  padding: 14px 16px;
+}
+
+.rk-cancel-invites-other-reason label.form-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101223;
+  margin-bottom: 8px;
+}
+
+.rk-accept-invite-time{
+  padding: 8px;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #E5E5E5;
+}
+
+.inputCost{
+  border: 1px solid #E5E5E5;
+  padding: 10px;
+  border-radius: 8px;
+  
+}
+
+.finalCost{
+  border: none;
+  outline: none;
+  width: 95%;
+}
+
+
+/****************************  Chef Manage Event Invites Page End  ************************************/
+
+/***************************  Generate QR code Page Start  ***********************************/
+.rk-QR-img {
+  margin-bottom: 48px;
+}
+
+.rk-qr-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rk-qr-section .btn {
+  font-family: 'Candara', serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding: 14px 24px;
+  border-radius: 12px;
+}
+
+.rk-QR-img img {
+  width: 250px;
+}
+
+.rk-qr-colorpalets-box {
+  padding: 30px 20px 15px;
+  border: 1px solid black; 
+}
+
+.rk-qr-colorpalets {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 0px;
+ margin: 0px 10px; 
+}
+
+.simple-btn {
+  background-color: #0a9782;
+  border-color: #0a9782;
+  color: #fff;
+  padding: 13px 36px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.simple-btn:hover {
+  background-color: #0a9782;
+  border-color: #0a9782;
+  color: #fff;
+}
+
+.rk-qr-list-title {
+  font-family: "Libre Bodoni";
+}
+
+.qr-block {
+  margin: 20px;
+}
+
+.qr-modal-footer {
+  padding: 20px;
+}
+
+.rk-qr-generatedbox {
+  border: none;
+  border-radius: 10px;
+  padding: 17px;
+  background-color: #fafafa;
+}
+
+.qr-text {
+  font-family: 'Candara';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.rk-qr-list-title {
+  font-family: 'Libre Bodoni';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.rk-qr-code-content {
+  min-height: calc(100vh - 153px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.rk-qrmodal-filebox {
+  border: 2px dashed #d2d4da;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.rk-modal-form-qredit-box {
+  border: 1px solid #d2d4da;
+  border-radius: 12px;
+  background-color: #f8f8fa;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+/***************************  Generate QR code Page End  ***********************************/
+
+
+/****************************  Chef Message Page Start  ************************************/
+.rk-message-content__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f8f8fa;
+  border-radius: 24px;
+  padding: 24px;
+  min-height: calc(100vh - 145px);
+}
+
+.rk-message-user-search {
+  padding-right: 28px;
+}
+
+.rk-message-user-search .rk-dashboard-header-search {
+  margin-left: 0;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 32px;
+}
+
+.rk-message-user-search .rk-dashboard-header-search .form-control {
+  background-color: #ffffff;
+}
+
+.rk-message-user-content {
+  width: 370px;
+  border-right: 1px solid rgba(210, 212, 218, 0.5);
+}
+
+.rk-message-user-detail-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.rk-message-user-detail-item:last-child {
+  margin-bottom: 0;
+}
+
+.rk-message-user-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #020c31;
+  margin-bottom: 0;
+}
+
+.rk-message-user-message-time {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #777986;
+}
+
+.rk-message-user-message-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #777986;
+  margin-bottom: 0;
+  width: calc(100% - 35px);
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.rk-message-user-list {
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 28px;
+}
+
+.rk-message-user-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.rk-message-user-item:last-child {
+  margin-bottom: 0;
+}
+
+.rk-message-user-img {
+  margin-right: 16px;
+}
+
+.rk-message-user-img img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.rk-message-user-details {
+  width: calc(100% - 64px);
+}
+
+.rk-user-chat-header-name {
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #020c31;
+  margin-bottom: 4px;
+}
+
+.rk-user-chat-header-designation {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4e556f;
+  margin-bottom: 0;
+}
+
+.rk-message-user-chat-content {
+  width: calc(100% - 370px);
+  padding-left: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.rk-user-chat-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 25px 24px 10px;
+  border-bottom: 1px solid rgba(210, 212, 218, 0.5);
+}
+
+.rk-user-chat-header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-user-chat-img {
+  margin-right: 12px;
+}
+
+.rk-user-chat-img img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.rk-user-chat-option {
+  cursor: pointer;
+}
+
+.dropstart .dropdown-toggle.rk-user-chat-option::before {
+  display: none;
+}
+
+.rk-user-chat-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rk-user-chat-input .form-control {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #777986;
+  padding: 13px 24px;
+  border: none;
+}
+
+.rk-user-chat-btn .btn {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.rk-user-chat-file {
+  margin: 0 20px;
+}
+
+.rk-user-chat-input {
+  width: calc(100% - 114px);
+}
+
+.rk-user-chat-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 00 auto;
+  flex: 1 00 auto;
+  padding: 32px 0;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.rk-user-chat-message:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.rk-user-chat-message-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding-left: 44px;
+  margin-bottom: 14px;
+  list-style: none;
+}
+
+.rk-user-chat-message-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #201f1e;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 0px 16px 16px 0px;
+  margin-bottom: 8px;
+  max-width: 55%;
+}
+
+.rk-user-chat-message-item:first-child {
+  border-radius: 16px 16px 16px 0px;
+}
+
+.rk-user-chat-message-item:last-child {
+  margin-bottom: 0;
+}
+
+.rk-user-chat-message-sender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.rk-user-chat-message-sender-img img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.rk-user-chat-message-sender-time {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #808598;
+  margin-left: 4px;
+}
+
+.rk-current-user-chat-message .rk-user-chat-message-list {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding-left: 0;
+  padding-right: 44px;
+}
+
+.rk-current-user-chat-message .rk-user-chat-message-sender {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  padding-left: 0;
+  padding-right: 5px;
+}
+
+.rk-current-user-chat-message .rk-user-chat-message-sender-time {
+  margin-right: 4px;
+  margin-left: 0;
+}
+
+.rk-current-user-chat-message .rk-user-chat-message-item {
+  border-radius: 16px 0px 0px 16px;
+  background-color: #05ac93;
+  color: #ffffff;
+}
+
+.rk-current-user-chat-message .rk-user-chat-message-item:first-child {
+  border-radius: 16px 16px 0px 16px;
+}
+
+/****************************  Chef Message Page End  ************************************/
+
+/**************************** Chef  Schedule Calendar Page Start  ************************************/
+
+.rk-schedule-calendar-content {
+  background: #ffffff;
+  -webkit-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 16px 16px 0;
+}
+
+.rk-schedule-calendar-selected-month {
+  font-family: "Libre Bodoni";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #101223;
+  margin-bottom: 0;
+  margin-right: 24px;
+}
+
+.rk-schedule-calendar-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-schedule-calendar-selected-type {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #777986;
+  background: #f8f8fa;
+  border-radius: 8px;
+  padding: 14px 42px;
+  border: none;
+  width: auto;
+  margin-right: 8px;
+}
+
+.rk-schedule-calendar-selecte-option {
+  background: #f8f8fa;
+  border-radius: 8px;
+  padding: 11px 12px;
+}
+
+.rk-schedule-calendar-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-schedule-calendar-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.rk-schedule-calendar-detail .btn {
+  font-family: "Candara";
+  padding: 9px 23px;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.rk-schedule-calendar-item {
+  padding: 6px;
+  -webkit-box-shadow: inset -1px -1px 0px #f2f2f2;
+  box-shadow: inset -1px -1px 0px #f2f2f2;
+  width: 147px;
+}
+
+.rk-schedule-calendar-area {
+  overflow-x: auto;
+}
+
+.rk-schedule-calendar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.rk-schedule-calendar-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-schedule-calendar-event-info {
+  background: #e6f7f4;
+  border: 1px solid #eff9ff;
+  border-radius: 4px;
+  padding: 13px 18px;
+  height: 76px;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.rk-schedule-calendar-day {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #777986;
+  margin-bottom: 4px;
+}
+
+.rk-schedule-calendar-date {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #101223;
+  margin-bottom: 4px;
+}
+
+.rk-schedule-calendar-month {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #777986;
+  margin-bottom: 0;
+}
+
+.rk-schedule-calendar-event-info__inner {
+  background: #eef5d7;
+  border-left: 3px solid #bcd95f;
+  border-radius: 4px;
+  padding: 3px 14px;
+  width: 100%;
+}
+
+.rk-schedule-calendar-event-name {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #101223;
+  margin-bottom: 4px;
+}
+
+span.rk-schedule-calendar-event-time {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #777986;
+}
+
+/**************************** Chef  Schedule Calendar Page End  ************************************/
+
+/**************************** Chef  Earning Page Start  ************************************/
+.rk-chef-total-earning-content {
+  margin-bottom: 32px;
+}
+
+.rk-chef-earning-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f5f0ff;
+  border: 1px solid #ede3ff;
+  border-radius: 16px;
+  padding: 30px 40px;
+}
+
+.rk-chef-earning-pending-amount-card {
+  background-color: #fdfff0;
+  border: 1px solid #edf7b1;
+}
+
+.rk-chef-earning-available-amount-card {
+  background-color: #f0f5ff;
+  border: 1px solid #dfeaff;
+}
+
+.rk-chef-earning-card-icon {
+  background-color: #ede3ff;
+  border-radius: 11.8333px;
+  padding: 17px;
+  margin-right: 16px;
+}
+
+.rk-chef-earning-card-icon img {
+  width: 35px;
+  height: 35px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.rk-chef-earning-card-body {
+  width: calc(100% - 85px);
+}
+
+.rk-chef-earning-label {
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5b5d6b;
+  margin-bottom: 4px;
+}
+
+.rk-chef-earning-amount {
+  font-family: "Libre Bodoni";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #05ac93;
+  margin-bottom: 4px;
+}
+
+.rk-chef-earning-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #777986;
+  margin-bottom: 0;
+}
+
+.rk-chef-event-earning-content {
+  background-color: #ffffff;
+  -webkit-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.rk-chef-event-earning-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.rk-chef-event-earning-title {
+  font-family: "Libre Bodoni";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #101223;
+  margin-bottom: 0;
+}
+
+.rk-chef-event-earning-content thead th {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #777986;
+}
+
+.rk-event-owner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.rk-event-owner-img img {
+  width: 32px;
+  height: 32px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.1));
+}
+
+.rk-event-owner-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101223;
+  margin-left: 12px;
+}
+
+.rk-chef-event-name,
+.rk-chef-event-date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5b5d6b;
+}
+
+.rk-chef-event-earning {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #05ac93;
+}
+
+.rk-chef-event-amount-status {
+  background: #e6f7f4;
+  border-radius: 8px;
+  padding: 8px 10px 8px 26px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #05ac93;
+  position: relative;
+  width: 84px;
+  display: block;
+}
+
+.rk-chef-event-amount-status:before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #05ac93;
+  position: absolute;
+  left: 16px;
+  top: calc(50% - 2px);
+}
+
+.rk-chef-event-amount-status-unpaid {
+  color: #f2994a;
+}
+
+.rk-chef-event-amount-status-unpaid::before {
+  background-color: #f2994a;
+}
+
+/**************************** Chef  Earning Page End  ************************************/
+
+/**************************** Chef Payout Page Start  ************************************/
+.rk-chef-payout-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.rk-chef-payout-content {
+  background: #f5fffd;
+  -webkit-box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  padding: 40px 0 40px 40px;
+}
+
+.rk-chef-payout-detail_inner:first-child {
+  margin-right: 35px;
+}
+
+.rk-chef-payout-detail_inner:last-child {
+  width: calc(100% - 400px);
+}
+
+.rk-chef-payout-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.rk-payout-card-icon {
+  background-color: #cff0ea;
+  border-radius: 11.8333px;
+  padding: 17px;
+  margin-right: 16px;
+}
+
+.rk-payout-card-icon img {
+  width: 35px;
+  height: 35px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.rk-payout-card-body {
+  width: calc(100% - 85px);
+}
+
+.rk-payout-label {
+  font-family: "Libre Bodoni";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5b5d6b;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.rk-payout-amount {
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #05ac93;
+  margin-bottom: 8px;
+}
+
+.rk-payout-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #777986;
+  margin-bottom: 0;
+}
+
+.rk-payout-card-btn .btn {
+  font-family: "Candara";
+  padding: 9px 20px;
+}
+
+.rk-payout-card-btn .btn:not(:last-child) {
+  margin-right: 24px;
+}
+
+.rk-chef-payout-chart canvas {
+  height: 180px !important;
+  width: 100% !important;
+}
+
+.rk-chef-added-bank-content {
+  padding-right: 40px;
+}
+
+.rk-chef-added-bank-title {
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.rk-chef-added-bank-logo {
+  margin-bottom: 16px;
+}
+
+.rk-chef-added-bank-acount {
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #192437;
+  margin-bottom: 0;
+}
+
+.rk-chef-added-bank-type {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #707e96;
+  font-family: "Candara";
+}
+
+.rk-chef-added-bank-item {
+  padding: 22px 42px;
+  border: 1px solid #e6f7f4;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: 24px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #ffffff;
+}
+
+.rk-chef-added-bank-item:last-child {
+  margin-right: 0;
+}
+
+.rk-chef-added-bank-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.rk-withdraw-amount-input .form-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #262626;
+  margin-bottom: 8px;
+}
+
+.rk-withdraw-amount-input .form-control {
+  padding: 12px 16px;
+}
+
+.rk-withdraw-amount-notes {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f2994a;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.rk-withdraw-amount-input {
+  margin-bottom: 32px;
+}
+
+.fw-select-bank-list .rk-chef-added-bank-item {
+  border: 1px solid #cdeee9;
+  position: relative;
+}
+
+.fw-select-bank-list .rk-chef-added-bank-item .form-check {
+  padding: 0;
+  margin: 0;
+  min-height: unset;
+}
+
+.fw-select-bank-list .rk-chef-added-bank-item .form-check-input {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border-radius: 0;
+  border-color: #b3b5bd;
+}
+
+.fw-select-bank-list .rk-chef-added-bank-item .form-check .form-check-label {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.fw-select-bank-list .form-check-input:checked[type="radio"] {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+.fw-select-bank-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.fw-select-bank-list .rk-chef-added-bank-item {
+  margin: 0;
+  width: calc(50% - 8px);
+  -webkit-box-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.rk-withdraw-money-content .btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 8px;
+}
+
+.rk-tansaction-history-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #9496a1;
+}
+
+.rk-tansaction-history-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+}
+
+.rk-tansaction-history-card:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.rk-tansaction-history-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 12px 12px 16px;
+}
+
+.rk-tansaction-history-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #9496a1;
+  margin-bottom: 8px;
+}
+
+.rk-tansaction-history-amount {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #192437;
+  margin-bottom: 0;
+}
+
+.rk-tansaction-history-status {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #05ac93;
+  margin-bottom: 0;
+}
+
+.rk-tansaction-history-header__inner:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.rk-tansaction-history-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.rk-tansaction-history-detail:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.rk-tansaction-history-body {
+  background: rgba(185, 185, 185, 0.08);
+  padding: 16px 12px 12px;
+}
+
+.rk-tansaction-history-detail-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #9496a1;
+  margin-bottom: 0;
+}
+
+.rk-tansaction-history-detail-value {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #192437;
+  margin-bottom: 0;
+}
+
+.rk-tansaction-history-stus-date {
+  font-weight: 700;
+}
+
+/**************************** Chef Payout Page End  ************************************/
+
+/**************************** Student My Event Page Start  ************************************/
+.rk-student-completed-events-content .rk-event-participate,
+.rk-student-completed-events-content .rk-event-card-location,
+.rk-student-completed-events-content .rk-event-detail {
+  margin-bottom: 8px;
+}
+
+.rk-provide-feedback-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #101223;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.rk-provide-feedback-icon {
+  cursor: pointer;
+}
+
+.rk-feedback-rate-list {
+  padding-left: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.rk-feedback-modal .modal-header {
+  padding-bottom: 0;
+}
+
+.rk-feedback-modal .modal-body {
+  padding: 24px 24px 32px;
+}
+
+.rk-feedback-notes {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #777986;
+}
+
+.rk-feedback-content {
+  margin-bottom: 24px;
+}
+
+.rk-feedback-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101223;
+  margin-bottom: 8px;
+}
+
+.rk-feedback-rating-content .form-check {
+  padding-left: 0;
+  position: relative;
+}
+
+.rk-feedback-rating-content .form-check-inline {
+  margin-right: 8px;
+}
+
+.rk-feedback-rating-content .form-check-input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rk-feedback-rating-content .form-check-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #777986;
+  padding: 8px 12px;
+  border: 1px solid #d2d4da;
+  border-radius: 50px;
+}
+
+.rk-feedback-rating-content .form-check-input:checked ~ .form-check-label {
+  color: #ffffff;
+  background-color: #37bda9;
+  border: 1px solid #05ac93;
+}
+
+.rk-feedback-content .form-control {
+  padding: 14px 16px;
+}
+
+.rk-feedback-modal .btn {
+  padding: 11px 36px;
+}
+
+.rk-submited-feedback-title {
+  font-family: "Libre Bodoni";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #101223;
+  margin-bottom: 8px;
+}
+
+.rk-submited-feedback-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #777986;
+  width: 235px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.rk-feedback-submitted-modal .modal-content {
+  border-radius: 12px;
+}
+
+.rk-message-user-message-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #05ac93;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.rk-event-card-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #404252;
+  margin-bottom: 0;
+}
+
+.rk-attending-event-modal .rk-event-card {
+  margin-bottom: 24px;
+}
+
+.rk-attending-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101223;
+  margin-bottom: 16px;
+}
+
+.rk-attending-radio .form-check-input:checked {
+  background-color: #ffffff;
+  border-color: #05ac93;
+}
+
+.rk-attending-radio .form-check-input:checked[type="radio"] {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%2305ac93'/%3e%3c/svg%3e");
+}
+
+.rk-attending-radio .form-check-input {
+  border: 2px solid #777986;
+}
+
+.rk-attending-radio .form-check {
+  font-weight: 700;
+  color: #777986;
+}
+
+.rk-attending-radio .form-check-input:checked ~ .form-check-label {
+  color: #05ac93;
+}
+
+/**************************** Student My Event Page End  ************************************/
+
+/****************************  Site Responsive Start  ************************************/
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 425px;
+  }
+}
+
+@media (min-width: 700px) {
+  .rk-attending-event-modal .modal-dialog {
+    max-width: 625px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1291px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .rk-dashboard-sidebar {
+    position: fixed;
+    z-index: 100;
+    left: -100%;
+    -webkit-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+  }
+
+  .rk-dashboard-sidebar.rk-menu-active {
+    left: 0;
+  }
+
+  .rk-dashboard-content-area {
+    width: 100%;
+  }
+
+  .rk-menu-icon {
+    display: block;
+    margin-left: 10px;
+  }
+
+  .rk-menu-icon__inner {
+    width: 35px;
+    height: 3px;
+    background-color: #000;
+    display: block;
+    margin-bottom: 5px;
+    -webkit-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+  }
+
+  .rk-menu-icon-active .rk-menu-icon__inner {
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .rk-menu-icon-active .rk-menu-icon__inner:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 5px;
+  }
+
+  .rk-menu-icon-active .rk-menu-icon__inner:nth-child(2) {
+    opacity: 0;
+  }
+
+  .rk-menu-icon-active .rk-menu-icon__inner:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .rk-site-header-logo {
+    display: block;
+  }
+
+  .rk-dashboard-user-name {
+    margin-left: 20px;
+  }
+
+  .rk-no-event-img img {
+    width: 250px;
+  }
+
+  .rk-no-event-title {
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+
+  .rk-no-event-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 360px;
+  }
+
+  .rk-manage-invites-card-footer__inner:last-child {
+    padding-left: 10px;
+  }
+
+  .rk-manage-invites-budget {
+    margin-bottom: 5px;
+  }
+
+  .rk-chef-earning-card {
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .rk-login-reg-form {
+    padding: 30px 20px;
+  }
+
+  .rk-login-reg-details {
+    padding: 40px 15px 120px 15px;
+  }
+
+  .rk-login-reg-form-content {
+    padding: 10px 20px 10px 0;
+  }
+
+  .rk-login-reg-description {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .rk-login-reg-logo img {
+    width: 150px;
+    max-width: 100%;
+  }
+
+  .rk-dashboard-counter {
+    font-size: 42px;
+  }
+
+  .rk-dashboard-counter {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .rk-dashboard-count-card {
+    padding: 20px 15px;
+    border-radius: 15px;
+  }
+
+  .rk-dashboard-count-label {
+    font-size: 14px;
+  }
+
+  .rk-dashboard-header-search {
+    width: 270px;
+  }
+
+  .rk-recent-events-content {
+    margin-bottom: 30px;
+  }
+
+  .rk-dashboard-count-card-content .col {
+    margin-bottom: 20px;
+  }
+
+  .rk-dashboard-header {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .rk-dashboard-user-name span {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .rk-dashboard-sidebar .nav-link {
+    padding: 12px;
+  }
+
+  .rk-dashboard-header-btn {
+    margin-left: auto;
+    margin-top: 20px;
+  }
+
+  .rk-profile-details {
+    margin-top: -60px;
+    padding-left: 50px;
+    margin-bottom: 70px;
+  }
+
+  .rk-profile-img img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .rk-profile-info {
+    padding: 0 80px 50px 50px;
+  }
+
+  .rk-message-content__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .rk-message-user-content {
+    width: 100%;
+    border-right: none;
+  }
+
+  .rk-message-user-list {
+    max-height: 250px;
+  }
+
+  .rk-message-user-content {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(210, 212, 218, 0.5);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .rk-message-user-chat-content {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .rk-user-chat-body {
+    max-height: 400px;
+  }
+
+  .rk-chef-total-earning-content .col {
+    margin-bottom: 15px;
+  }
+
+  .rk-chef-added-bank-item {
+    padding: 20px 15px;
+  }
+
+  .rk-chef-added-bank-item {
+    min-width: calc(50% - 24px);
+    max-width: calc(50% - 24px);
+    margin-bottom: 15px;
+  }
+
+  .rk-chef-added-bank-content {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .rk-dashboard-sidebar {
+    padding: 32px 14px 32px 24px;
+    border-radius: 0px 30px 0px 0px;
+  }
+
+  .rk-dashboard-sidebar {
+    padding: 20px 15px;
+  }
+
+  .rk-dashboard-sidebar .nav-link .nav-link-icon svg {
+    width: 18px;
+  }
+
+  .rk-header {
+    padding: 12px 15px;
+  }
+
+  .rk-login-reg-description {
+    margin-bottom: 50px;
+  }
+
+  .rk-login-reg-content .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .rk-login-reg-form-content {
+    padding: 15px;
+  }
+
+  .rk-login-reg-form {
+    padding: 30px 15px;
+    margin-bottom: 20px;
+  }
+
+  .rk-login-reg-details {
+    padding: 40px 15px 40px 15px;
+  }
+
+  .form-select,
+  .form-control {
+    padding: 10px 15px 10px 45px;
+  }
+
+  .rk-form-input-icon {
+    position: absolute;
+    top: 12px;
+  }
+
+  .rk-login-reg-form .btn {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+
+  .rk-dashboard-user-name {
+    margin-left: auto;
+    font-size: 18px;
+  }
+
+  .rk-dashboard-user-name span {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .rk-dashboard-notification-icon {
+    margin-left: 10px;
+  }
+
+  .rk-dashboard-header-search {
+    margin-left: 0;
+    margin-right: auto;
+    width: calc(100% - 95px);
+    max-width: 100%;
+  }
+
+  .rk-site-header-logo {
+    margin-bottom: 20px;
+  }
+
+  .rk-dashboard-content-area {
+    padding: 24px 15px;
+  }
+
+  .rk-recent-events-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .rk-recent-events-img {
+    width: 100%;
+  }
+
+  .rk-recent-events-img img {
+    width: 100%;
+    border-radius: 12px 12px 0px 0;
+    height: 150px;
+  }
+
+  .rk-recent-events-info {
+    margin-left: 0;
+    padding: 16px 16px 0;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .rk-recent-events-details {
+    padding: 16px 16px 16px 16px;
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .rk-recent-events-item p.rk-event-participate {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .rk-event-filter-input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .rk-event-filter-input .form-control,
+  .rk-event-filter-input .form-select {
+    padding: 9px 10px 9px 10px;
+  }
+
+  .rk-event-filter-value-item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .rk-event-filter-value-remove {
+    margin-left: auto;
+  }
+
+  .rk-dashboard-sidebar .nav-link {
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .rk-dashboard-header-search .form-control {
+    border-radius: 8px;
+    padding: 12px 16px 12px 40px;
+  }
+
+  .rk-dashboard-header-search img {
+    top: 14px;
+    left: 14px;
+    width: 19px;
+  }
+
+  .rk-site-logo {
+    margin: 0px auto 20px;
+    padding-bottom: 20px;
+  }
+
+  .modal-header {
+    padding: 20px 15px;
+  }
+
+  .rk-side-modal .modal-body {
+    padding: 0 15px;
+  }
+
+  .rk-modal-form-content .form-select,
+  .rk-modal-form-content .form-control {
+    padding: 8px 14px;
+  }
+
+  .btn-custom {
+    padding: 10px 36px;
+  }
+
+  .rk-requested-event-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .rk-requested-event-img img {
+    width: 1000%;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+
+  .rk-requested-event-details {
+    width: 100%;
+  }
+
+  .rk-requested-event-details__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .rk-requested-event-date-time {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .rk-requested-event-member {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .rk-requested-event-participant {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .rk-requested-event-location {
+    margin-bottom: 10px;
+  }
+
+  .rk-employee-details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .rk-employee-designation {
+    margin-bottom: 12px;
+    text-align: left;
+  }
+
+  .rk-employee-date {
+    margin-bottom: 12px;
+  }
+
+  .rk-employee-managment-content .col {
+    margin-bottom: 20px;
+  }
+
+  .rk-dashboard-filter-icon {
+    border-radius: 8px;
+    width: 46px;
+    height: 46px;
+  }
+
+  .rk-billing-invoice-hrader .rk-dashboard-header-search {
+    width: calc(100% - 115px);
+  }
+
+  .rk-billing-content .col {
+    margin-bottom: 20px;
+  }
+
+  .rk-profile-details {
+    margin-top: -40px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .rk-profile-details_inner {
+    margin-bottom: 15px;
+  }
+
+  .rk-profile-img img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .rk-profile-banner img {
+    height: 150px;
+  }
+
+  .rk-profile-info {
+    padding: 0 20px 20px 20px;
+  }
+
+  .rk-modal-footer-btn .btn {
+    padding: 11px 30px;
+  }
+
+  .rk-chef-earning-content {
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .rk-event-slider-title {
+    font-size: 20px;
+  }
+
+  .rk-manage-invites-card-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  .rk-manage-invites-card-title {
+    margin-bottom: 15px;
+  }
+
+  .rk-manage-invites-card-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .rk-manage-invites-card-footer__inner {
+    width: 100%;
+  }
+
+  .rk-manage-invites-budget:last-child {
+    margin-bottom: 15px;
+  }
+
+  .rk-manage-invites-card-footer__inner:last-child {
+    padding-left: 0;
+  }
+
+  .rk-manage-invites-card-footer__inner .btn {
+    width: calc(50% - 10px);
+  }
+
+  .modal-content {
+    border-radius: 20px;
+  }
+
+  .rk-manage-event-invites-content .col {
+    margin-bottom: 20px;
+  }
+
+  .rk-message-user-search {
+    padding-right: 0;
+  }
+
+  .rk-message-user-img img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .rk-message-user-detail-item {
+    margin-bottom: 0;
+  }
+
+  .rk-message-content__inner {
+    padding: 20px 15px;
+  }
+
+  .rk-user-chat-header {
+    padding: 0 0 20px 0;
+  }
+
+  .rk-user-chat-body {
+    padding: 20px 0;
+  }
+
+  .rk-user-chat-message-item {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 12px;
+    max-width: 80%;
+  }
+
+  .rk-user-chat-btn .btn img {
+    width: 24px;
+  }
+
+  .rk-user-chat-file {
+    margin: 0 5px;
+  }
+
+  .rk-user-chat-input {
+    width: calc(100% - 75px);
+  }
+
+  .rk-schedule-calendar-detail:first-child {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .rk-schedule-calendar-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .rk-schedule-calendar-select {
+    width: 100%;
+  }
+
+  .rk-schedule-calendar-selected-type {
+    width: calc(100% - 48px);
+    padding: 10px 15px 10px 20px;
+  }
+
+  .rk-schedule-calendar-selecte-option {
+    padding: 7px 9px;
+  }
+
+  .rk-schedule-calendar-selected-month {
+    margin-bottom: 10px;
+    margin-right: 00;
+  }
+
+  .rk-schedule-calendar-detail {
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .rk-schedule-calendar-item:first-child {
+    width: 60px;
+  }
+
+  .rk-chef-event-earning-content .table {
+    table-layout: fixed;
+  }
+
+  .rk-chef-event-earning-content .table * {
+    white-space: nowrap;
+  }
+
+  .rk-chef-event-earning-content .table thead th:first-child {
+    width: 200px;
+  }
+
+  .rk-chef-event-earning-content .table thead th:nth-child(2) {
+    width: 150px;
+  }
+
+  .rk-chef-event-earning-content .table thead th:nth-child(3) {
+    width: 150px;
+  }
+
+  .rk-chef-event-earning-content .table thead th:nth-child(4) {
+    width: 150px;
+  }
+
+  .rk-chef-event-earning-content .table thead th:nth-child(5) {
+    width: 150px;
+  }
+
+  .rk-chef-payout-content {
+    padding: 20px;
+  }
+
+  .rk-chef-payout-detail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .rk-chef-payout-detail_inner:last-child {
+    width: 100%;
+  }
+
+  .rk-chef-payout-detail_inner:first-child {
+    margin-right: 0;
+  }
+
+  .rk-payout-card-btn .btn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .rk-chef-added-bank-item {
+    min-width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .rk-dashboard-counter {
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .rk-attending-event-modal .modal-body {
+    padding: 20px 15px;
+  }
+
+  .rk-feedback-rating-content .form-check-inline {
+    margin-bottom: 8px;
+  }
+}
+
+/****************************  Site Responsive End  ************************************/
+
+/* <----------------------- General start -------------------------------> */
+.hand_arrow:hover {
+  cursor: pointer;
+}
